@@ -6,11 +6,8 @@ The codes in this progject will reproduce the results in our paper submitted to 
 Contents included in this file
 
 1. directory and code organization
-
 2. experiments
-
 3. running on other operating systems
-
 4. contact information
 
 Usage
