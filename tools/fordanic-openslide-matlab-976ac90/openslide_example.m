@@ -28,13 +28,8 @@ close all
 openslide_load_library();
 
 % Set file name of whole-slide image to work with
-% WSI = [folder,filesep,'test_data',filesep,'CMU-1-Small-Region.svs'];
+WSI = [folder,filesep,'test_data',filesep,'CMU-1-Small-Region.svs'];
 
-% jpeg2000
-WSI = 'E:\KIRP\nationwidechildrens.org_KIRP.diagnostic_images.Level_1.299.3.0\TCGA-A4-A5DU-01Z-00-DX1.ACCD40B6-CC28-4E89-B9A9-9199F0541075.svs';
-% WSI = 'C:\Users\cheng\Desktop\type1\TCGA-2Z-A9J9-01Z-00-DX1.D6AA9708-04ED-477F-9FAF-B70F0DD8C1BE.svs';
-% jpeg
-% WSI = 'C:\Users\cheng\Desktop\type2\TCGA-Q2-A5QZ-01Z-00-DX1.66131B27-D89A-4BCC-A25A-1A4B9682199C.svs';
 
 % Display vendor of whole-slide image
 disp(['Vendor: ',openslide_detect_vendor(WSI)])
@@ -56,23 +51,15 @@ disp(['number of levels: ',num2str(numberOfLevels)])
 disp(['objective power: ',num2str(objectivePower)])
 
 % Read a part of the image
-ARGB0 = openslide_read_region(slidePtr,7308, 4917, 500, 500, 0);
-ARGB1 = openslide_read_region(slidePtr,1780, 1029, 256, 256, 1);
-ARGB2 = openslide_read_region(slidePtr,812, 512, 256, 256, 2);
+% ARGB0 = openslide_read_region(slidePtr,7308, 4917, 500, 500, 0);
+% ARGB1 = openslide_read_region(slidePtr,1780, 1029, 256, 256, 1);
+% ARGB2 = openslide_read_region(slidePtr,812, 512, 256, 256, 2);
+% 
+% white = openslide_read_region(slidePtr, 4409, 32506, 256, 256, 0);
 
-white = openslide_read_region(slidePtr, 4409, 32506, 256, 256, 0);
-
-imargb = openslide_read_region(slidePtr,7308, 4917, 224, 224, 0);
+imargb = openslide_read_region(slidePtr,500, 500, 800, 800, 0);
 figure
 imshow(imargb(:, :, 2:4));
-
-% Display RGB part
-figure
-imshow(ARGB0(:,:,2:4))
-figure
-imshow(ARGB1(:,:,2:4))
-figure
-imshow(ARGB2(:,:,2:4))
 
 
 % Get property names and display them
@@ -81,9 +68,6 @@ disp(propertyNames(:))
 
 % Get a property value
 propertyValue = openslide_get_property_value(slidePtr,propertyNames{21});
-disp(propertyValue)
-
-propertyValue = openslide_get_property_value(slidePtr,propertyNames{40});
 disp(propertyValue)
 
 % Get associated images
