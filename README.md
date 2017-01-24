@@ -3,12 +3,13 @@ This project builds a lasso-regularized Cox proportional hazards model to predic
 
 The codes in this progject will reproduce the results in our paper submitted to Cancer Research, "Integrative analysis of histopathological images and genomic data for predicting clear cell renal cell carcinoma prognosis". Our codes were implemented and tested using win10, matlab/2015b, and R 3.3.1.
 
-Contents included in this file
+**Contents included in this file**
 
-1. directory and code organization
-2. experiments
-3. running on other operating systems
-4. contact information
+* Directory and code organization
+* Download whole-slide tissue images
+* Experiments 
+* Running on other operating systems
+* Contact information
 
 Usage
 -----
