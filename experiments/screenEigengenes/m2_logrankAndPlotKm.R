@@ -1,4 +1,5 @@
-# Log rank test for eigen gene
+# Log rank test for eigengene. KM curves of survival-assocaited image 
+# features are plotted. 
 library(OIsurv)
 
 imUni = read.table("rdata.txt");

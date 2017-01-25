@@ -1,3 +1,4 @@
+% Sort the log-rank test results based on p value
 clear
 
 res = load('logrankRes.txt');

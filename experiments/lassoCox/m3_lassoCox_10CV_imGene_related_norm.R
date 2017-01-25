@@ -1,4 +1,9 @@
-# Lasso regularized Cox regression
+# Lasso regularized Cox regression using 10-fold cross validation (CV).
+# This program is only for examining which variables are selected by the 
+# lasso Cox model. So the 10-fold CV is performed using the whole data set,
+# and then the sparse regression coefficients are obtained from the selected 
+# model.
+
 library("OIsurv")
 library("glmnet")
 

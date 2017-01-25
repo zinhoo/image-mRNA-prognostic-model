@@ -1,5 +1,5 @@
-% Write data into .txt file which will be input to R for lasso-regularized 
-% Cox regression
+% Write survival-associated features into .txt file which will be input to
+% R for lasso-regularized Cox regression
 % Features are standardized
 clear
 

@@ -1,4 +1,6 @@
-% Write data into .txt file which will be processed in R
+% Write eigengene data into .txt file which will be processed in R.
+% For each feature, patients are divided into two groups by the median of
+% the feature.
 clear
 
 load('../../imRnaSM.mat');

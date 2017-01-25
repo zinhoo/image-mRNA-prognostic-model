@@ -1,4 +1,4 @@
-% find high correlation pairs
+% find high correlation pairs (correlation > 0.3)
 clear
 
 load spearman_rho

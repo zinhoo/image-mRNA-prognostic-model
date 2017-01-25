@@ -1,4 +1,9 @@
-# Lasso regularized Cox regression
+# Lasso regularized Cox regression using leave-one-out (LOO) 
+# cross validation (CV).
+# During each run of LOO CV, 10-fold CV is performed on training set to 
+# select the best model. Then the selected model is applied to the single
+# held-out test sample to predict death risk.
+
 library(OIsurv)
 library(glmnet)
 set.seed(1)

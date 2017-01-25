@@ -1,4 +1,4 @@
-% Each cell has 10 features. Below we get image level feaures of each 
+% Each cell has 10 features. Below we get patient-level feaures of each 
 % patient.
 
 % ---BoW histogram feature--- 

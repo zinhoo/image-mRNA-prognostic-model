@@ -1,4 +1,4 @@
-% Write data into .txt file which will be processed in R
+% Write clinical data into .txt file which will be processed in R
 clear
 
 load('../../imRnaSM.mat');

@@ -1,4 +1,4 @@
-% correlate survival-related image features with eigen genes
+% correlate survival-related image features with eigengenes
 clear
 close all
 
