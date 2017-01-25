@@ -20,6 +20,7 @@ Code organization and directory description
 Not all patients have image data, gene expression data, and somatic mutation data, so these three types of data are prepared separately and then intersected, resulting in 410 patients with all three types of data available. The excution order of programs in each folder is indicated by their filenames. Suppose there are two files begining with "m": "m1_xxx.m" (or .R) and "m2_xxx.m". Files begining with "m" are main programs that should be excuted. The number next to "m" indicates the excution order, that is, we should first run "m1_xxx.m" and then "m2_xxx.m". 
 
 Directory description (codes should also be excuted according to the following order)
+
 1. "setup_addpath.m"
 Adding the tools in folder "tools" to matlab search path.
 
@@ -88,4 +89,4 @@ Email: chengjun583@qq.com
 Reference
 ---
 [1] Zhang J, Huang K. Normalized lmQCM?: an Algorithm for Detecting Weak Quasi-clique Modules in Weighted Graph with Application in Functional Gene Cluster Discovery in Cancer. Cancer Inform. 2016;1:1.
-[2] Alter O, Brown PO, Botstein D. Singular value decomposition for genome-wide expression data processing and modeling. Proc Natl Acad Sci. 2000;97:10101¨C6.
+[2] Alter O, Brown PO, Botstein D. Singular value decomposition for genome-wide expression data processing and modeling. Proc Natl Acad Sci. 2000;97:10101Â¨C6.
