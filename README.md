@@ -79,8 +79,7 @@ All codes are implemented and tested on win10. However if you use other operatin
 
 Contact information
 -----
-Jun Cheng, Southern Medical University, Guangzhou, China
-
+Jun Cheng, Southern Medical University, Guangzhou, China.
 Email: chengjun583@qq.com
 
 Reference
