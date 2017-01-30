@@ -66,7 +66,7 @@ univariate and multivariate Cox regression analysis are used to evaluate the pro
 
 Downloading whole-slide tissue images
 -----
-Except image data, gene expression data, and somatic mutation data are already included in this project. Image data are not included because of its huge size (about 310GB), but the computed image features are included.
+Gene expression data, and somatic mutation data are already included in this project. Image data are not included because of its huge size (about 310GB), but the computed image features are included.
 
 If you'd like to download the data from the Genomic Data Commons (GDC), you first need to install [GDC data transfer tool](https://gdc.cancer.gov/access-data/gdc-data-transfer-tool). Once installed, go to the directory, "imageAndClinicalInfo/images", open a command window in this folder, and download the image data using the following command: 
 "gdc-client download -m ../gdc_manifest_20161130_195535.txt"
@@ -80,6 +80,7 @@ All codes are implemented and tested on win10. However if you use other operatin
 Contact information
 -----
 Jun Cheng, Southern Medical University, Guangzhou, China
+
 Email: chengjun583@qq.com
 
 Reference
