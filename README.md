@@ -79,10 +79,9 @@ All codes are implemented and tested on win10. However if you use other operatin
 
 Contact information
 -----
-Jun Cheng, Southern Medical University, Guangzhou, China.
-Email: chengjun583@qq.com
+Jun Cheng, Southern Medical University, Guangzhou, China. Email: chengjun583@qq.com
 
 Reference
 ---
-[1] Zhang J, Huang K. Normalized lmQCM?: an Algorithm for Detecting Weak Quasi-clique Modules in Weighted Graph with Application in Functional Gene Cluster Discovery in Cancer. Cancer Inform. 2016;1:1.
+[1] Zhang J, Huang K. Normalized lmQCM?: an Algorithm for Detecting Weak Quasi-clique Modules in Weighted Graph with Application in Functional Gene Cluster Discovery in Cancer. Cancer Inform. 2016;1:1. 
 [2] Alter O, Brown PO, Botstein D. Singular value decomposition for genome-wide expression data processing and modeling. Proc Natl Acad Sci. 2000;97:10101¨C6.
