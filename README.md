@@ -17,7 +17,7 @@ In this project, we combine histopathological image data and genomic data to pre
 
 Code organization and directory description
 -----
-Not all patients have image data, gene expression data, and somatic mutation data simultaneously, so these three types of data are first prepared separately and then intersected, resulting in 410 patients with all three types of data available. The execution order of programs in each folder is indicated by their filenames. Suppose there are two files begining with "m": "m1_xxx.m" (or .R) and "m2_xxx.m". Files begining with "m" are main programs that should be excuted. The number next to "m" indicates the excution order, that is, we should first run "m1_xxx.m" and then "m2_xxx.m". 
+Not all patients have image data, gene expression data, and somatic mutation data simultaneously, so these three types of data are first prepared separately and then intersected, resulting in 410 patients with all three types of data available. The execution order of programs in each folder is indicated by their filenames. Suppose there are two files begining with "m": "m1_xxx.m" (or .R) and "m2_xxx.m". Files begining with "m" are main programs that should be executed. The number next to "m" indicates the execution order, that is, we should first run "m1_xxx.m" and then "m2_xxx.m". 
 
 Directory description (codes should also be executed according to the following order)
 
