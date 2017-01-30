@@ -9,7 +9,7 @@ The codes in this progject will reproduce the results in our paper submitted to 
 * Downloading whole-slide tissue images
 * Running on other operating systems
 * Contact information
-* Reference
+* References
 
 Overview
 -----
@@ -81,7 +81,7 @@ Contact information
 -----
 Jun Cheng, Southern Medical University, Guangzhou, China. Email: chengjun583@qq.com
 
-Reference
+References
 ---
 [1] Zhang J, Huang K. Normalized lmQCM?: an Algorithm for Detecting Weak Quasi-clique Modules in Weighted Graph with Application in Functional Gene Cluster Discovery in Cancer. Cancer Inform. 2016;1:1.  
 [2] Alter O, Brown PO, Botstein D. Singular value decomposition for genome-wide expression data processing and modeling. Proc Natl Acad Sci. 2000;97:10101¨C6.
