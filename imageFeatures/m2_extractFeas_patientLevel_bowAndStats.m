@@ -41,6 +41,7 @@ else % else do clustering
     for i = 1:nf
         t1 = tic;
         [~, dic{i}] = kmeans(feas(:, i), dSize, 'maxIter', 500, 'replicates', 5);
+        dic{i} = sort(dic{i});
         fprintf('clustering %d/%d finisehd, time %f\n', i, nf, toc(t1));
     end
     save(['dic', num2str(dSize), '.mat'], 'dic');
